@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- 
+      1. function
+      khi cập nhật state
+      setState
+      2. class
+      khi cập nhật state
+      this.setState
+      - Đối với function, khi setState: replace (thay thế)
+      - Đối với class, khi setState: merge (gộp)
+      props không thể thay đổi component con
+
+      lifecycle trong react có 4 giai đoạn
+      1. initial
+      2. mounting
+      3. update
+      4. unmount
+
+      props dùng để truyền dữ liệu giữa các component có quan hệ cha con
+
+      state là dùng để lưu trữ thông tin dữ liệu có thể thay đổi trong quá trình sử dụng
+
+      ReactJS dùng DOM ảo
+      ReactJS có hỗ trợ SSR (Server side rendering)
+      ReactJS ràng buộc dữ liệu 1 chiều: Oneway data binding
+
+      SPA: Single-Page-Application: Ứng dụng trang đơn
+      index.html: Lần đầu tiên tải trang thì toàn bộ dữ liệu sẽ được tải xuông file index.html
+
+      MPA: Multi-Page-Application: Ứng dụng nhiều trang
+      Khi truy cập trang nào thì sẽ loading dữ liệu trang đó
+      ==> Tối ưu cho SEO (Search Engine Optimization)
+      Tối ưu công cụ tìm kiếm
+
+      Sau này làm dự án trang web có nhiều component
+      Cài thêm thư viện react* router-dom: để quản lý các route
+
+      reactJS dùng thư viện babel để biên dịch code js thành jsx
+
+      Destructuring là cách truy cập thuộc tính của đối tượng hoặc phần tử trong array 1 cách dễ dàng
+     -->
+  </body>
+</html>
